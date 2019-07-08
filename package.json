@@ -1,0 +1,36 @@
+{
+  "name": "curso_ts",
+  "version": "1.0.0",
+  "description": "Curso TS",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc_v": "tsc -v",
+    "tslint_v": "tslint -v",
+    "ts-node": "ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isabeletta/curso_ts.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "TS",
+    "JS"
+  ],
+  "author": "miger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isabeletta/curso_ts/issues"
+  },
+  "homepage": "https://github.com/Isabeletta/curso_ts#readme",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "ts-node": "^8.3.0"
+  },
+  "dependencies": {
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
+  }
+}
