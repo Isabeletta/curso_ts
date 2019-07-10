@@ -44,9 +44,12 @@ leerDatosPromesa()
 
 // ES2017 (ES8) async/await
 
-( function ()  {
-    leerDatosPromesa()
-        .then( (datos ) => { console.log("Promesas todo ok " + datos)})
-        .catch( ( error ) => { console.log("Error Promesas: " + error.message)})
+(async function () {
+    try {
+        const datos = await leerDatosPromesa()
+        console.log('await', datos)
+    } catch (error) {
+        console.log('Error await: ' + error.message)
+    }
 })()
 
