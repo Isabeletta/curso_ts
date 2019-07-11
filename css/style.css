@@ -1,8 +1,8 @@
-body{
+body {
     margin: 0%;
 }
 
-header, footer{
+header, footer {
     min-height: 15vh;
     background-color: brown;
     color: bisque;
@@ -11,6 +11,11 @@ header, footer{
     justify-content: center;
 }
 
-main{
+main {
     min-height: 70vh;
+    margin: 3rem;
+}
+
+main div {
+    margin: 3rem;
 }

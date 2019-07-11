@@ -1,5 +1,5 @@
 *-lock.json
-/dist
+# /dist
 
 # Logs
 logs
